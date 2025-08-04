@@ -88,17 +88,24 @@ GET http://localhost:3333/players
 
 ```http
 POST http://localhost:3333/players
-Content-Type: application/json
 
+JSON:
 {
-      "Overall": 100,
-      "Pace": 88,
-      "Shooting": 93,
-      "Passing": 78,
-      "Dribbling": 82,
-      "Defending": 47,
-      "Physical":90
-    }
+  "id": 100,
+  "name": "Vinícius Júnior",
+  "club": "Real Madrid",
+  "nationality": "Brazil",
+  "position": "Left Winger",
+  "statistics": {
+    "Overall": 91,
+    "Pace": 95,
+    "Shooting": 83,
+    "Passing": 80,
+    "Dribbling": 94,
+    "Defending": 35,
+    "Physical": 72
+  }
+}
 ```
 
 ## 🔧 Built With
