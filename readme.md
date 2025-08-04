@@ -10,6 +10,15 @@ A RESTful API built with Node.js, TypeScript, and Express for consulting and upd
 - Update or delete players by ID
 - Retrieve a list of clubs
 
+## Built With
+
+* [Node.js](https://nodejs.org/)
+* [Express](https://expressjs.com/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [TSX](https://github.com/esbuild/tsx)
+* [Tsup](https://tsup.egoist.dev/)
+
+
 ## Installation
 
 Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
@@ -106,14 +115,4 @@ JSON:
     "Physical": 72
   }
 }
-```
-
-## Built With
-
-* [Node.js](https://nodejs.org/)
-* [Express](https://expressjs.com/)
-* [TypeScript](https://www.typescriptlang.org/)
-* [TSX](https://github.com/esbuild/tsx)
-* [Tsup](https://tsup.egoist.dev/)
-
 ```
