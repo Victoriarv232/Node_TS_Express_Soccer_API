@@ -108,7 +108,7 @@ JSON:
 }
 ```
 
-## 🔧 Built With
+## Built With
 
 * [Node.js](https://nodejs.org/)
 * [Express](https://expressjs.com/)
